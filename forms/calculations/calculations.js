@@ -1,5 +1,5 @@
-function calcAvgSquare (x,y,z) {
-    let avgSquare = ((x + y + z)/3) * (x**2)
+function calcAvgSquare (one,two,three) {
+    let avgSquare = ((one + two + three)/3) * (math.pow(one, 2)
     return avgSquare
 }
 
